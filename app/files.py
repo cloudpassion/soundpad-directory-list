@@ -11,13 +11,9 @@ from .xml import CATEGORY, SOUND_IN_CAT
 AUDIO_EXTENSIONS = [
     'mp3', 'wav', 'm4a', 'ogg'
 ]
-# don't walk inside this dirs
-SKIP_DIRECTORIES = ['app', ]
-# and skip this files from being parsed
-#SKIP_FILES = [, ]
+
 # scan or not id3 tags from each file for grab artist and title
 SCAN_ID3 = False
-ADD_EMPTY_DIRS = True
 
 
 class DirectoryData:
